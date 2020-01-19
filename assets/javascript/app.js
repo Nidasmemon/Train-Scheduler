@@ -101,4 +101,10 @@ database.ref().on("child_added", function (childSnapshot) {
 
     // Appends the new row to the table
     $("#train-table > tbody").append(newRow);
+
+    // Auto updates "minutes to arrival" and "next train time" every minute
+    setInterval(function () {
+        window.location.reload();
+    }, 60000);
+
 });
