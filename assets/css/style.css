@@ -1,0 +1,23 @@
+.jumbotron, .card-header, .btn {
+    background-color: rgba(42, 116, 165, 0.541);
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+.card {
+    text-align: left;
+}
+
+.btn {
+    color: black;
+}
